@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testComp3"
+  owner: 
+  annotations:
+    github.com/project-slug: "HarbingerOfYeet/testComp3"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
